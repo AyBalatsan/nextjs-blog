@@ -1,19 +1,14 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
-date: '2020-01-02'
+title: 'My skills'
+date: '2022-02-02'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+My skills:
+1) Vanilla js (For animation, submitting forms, requests via ajax requests, interacting with the Dom tree, validating forms, I know how to connect third-party libraries, processing arrays and objects, in short, I know the base.)
+2) Layout (I use pug/less/sass, I know SEO partially, I use BEM methodology. I managed to get acquainted with bootstrap 5 - I didn’t like it, I think it’s not acceptable for large projects)
+3) I can build builds on Gulp, Webpage (I just need to refresh my knowledge a little, as I mainly did builds on gulp)
+4) Git upload the project, merge and everything like that.
+5) React at the learning level, but I can make a SPA project with components and my own architecture
+6) Worked with Figma graphic editor.
 
-You can use Static Generation for many types of pages, including:
-
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
-
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+I plan to continue learning typeScript.
